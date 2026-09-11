@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Personalized Adaptation Layer](#personalized-adaptation-layer)
 - [Experimental Scope](#experimental-scope)
-- [Supplementary Material](#supplementary-material)
+- [Additional Material](#additional-material)
 - [Public Datasets](#public-datasets)
 - [Acknowledgements](#acknowledgements)
 
@@ -17,7 +17,7 @@ Auditory attention decoding (AAD) aims to identify the speaker to whom a listene
 
 To address this problem, we propose a **Personalized Adaptation Layer (PAL)**, a lightweight and implementation-compatible front-end for AAD models. PAL is designed to provide subject-specific spatial adaptation while requiring minimal changes to the downstream decoding backbone.
 
-The current repository release provides the supplementary material associated with the manuscript.
+The current repository release provides the additional material associated with the manuscript.
 
 ## Personalized Adaptation Layer
 
@@ -50,9 +50,9 @@ The primary comparison is the paired change between each backbone and its PAL-eq
 
 Across the 24 backbone--dataset--window comparisons reported in the manuscript, all mean changes were positive. The size of the improvement was architecture dependent, supporting PAL as a lightweight, validation-driven front-end rather than a universally beneficial or calibration-free solution.
 
-## Supplementary Material
+## Additional Material
 
-The supplementary document provides additional analyses and complete supporting results, including:
+The additional document provides additional analyses and complete supporting results, including:
 
 - Published/reference versus reproduced baseline comparisons
 - PAL parameter counts, FLOPs, latency, and training-time overhead
